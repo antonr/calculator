@@ -8,4 +8,8 @@ describe Calculator do
   it "subtracts numbers" do
     expect(subject.sub(2, 3)).to eq(-1)
   end
+
+  it "multiplies numbers" do
+    expect(subject.sub(2, 3)).to eq(6)
+  end
 end
