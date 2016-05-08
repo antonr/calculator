@@ -10,6 +10,6 @@ describe Calculator do
   end
 
   it "multiplies numbers" do
-    expect(subject.sub(2, 3)).to eq(6)
+    expect(subject.multiply(2, 3)).to eq(6)
   end
 end
