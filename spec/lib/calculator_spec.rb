@@ -6,7 +6,7 @@ describe Calculator do
   end
 
   it "subtracts numbers" do
-    expect(subject.sub(2, 3)).to eq(-1)
+    expect(subject.subtract(2, 3)).to eq(-1)
   end
 
   it "multiplies numbers" do

@@ -3,7 +3,7 @@ class Calculator
     a + b
   end
 
-  def sub(a, b)
+  def subtract(a, b)
     a - b
   end
 
